@@ -73,4 +73,5 @@ my_final_tidy_data <- my_measuresData %>%
   group_by(subject, activity) %>%
   summarise_all(funs(mean))
 
-write.table(my_final_tidy_data, "my_final_tidy_data.txt", row.name=FALSE)
+write.table(my_final_tidy_data, "tidy_data.txt", row.name=FALSE)
+
