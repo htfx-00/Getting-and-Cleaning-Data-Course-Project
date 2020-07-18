@@ -3,10 +3,10 @@
 
 <div style= "border: 5px dotted gray; padding: 10px 20px; background-color:#ededed; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);">
 
-The `run_analysis.R` script performs the data preparation and then followed by the 5 steps required as described in the course project's definition.
+The `run_analysis.R` script allows the data preparation and then followed by the 5 steps required as described in the course project's definition.
 
 1. **Download the dataset**
-    + Dataset downloaded and extracted under the folder called `UCI HAR Dataset`
+    + Dataset downloaded and extracted under the folder named `UCI HAR Dataset`
     
     <br/>
 2. **Import each data to variables**
