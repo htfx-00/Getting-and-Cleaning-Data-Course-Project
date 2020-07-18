@@ -13,7 +13,7 @@ if (!file.exists(filezip)){
   download.file(link_Url_data, filezip)
 }
 
-# Checking if folder exists and to unzip
+# Checking if folder exists and to unzip into under folder named UCI HAR Datase
 if (!file.exists("UCI HAR Dataset")) { 
   unzip(filezip) 
 }
